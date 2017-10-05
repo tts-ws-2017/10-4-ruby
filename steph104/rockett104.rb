@@ -8,17 +8,20 @@ class Perfume
 end
 
 my_perfume_array = []
-complete = ""
+# complete = ""
 
-brand = ARGV[0]
-name = ARGV[1]
+# brand = ARGV[0]
+# name = ARGV[1]
 
-my_perfume = Perfume.new(brand, name)
+my_perfume1 = Perfume.new("BrandA", "smellgood")
+my_perfume2 = Perfume.new("BrandB", "smellbetter")
 
-my_perfume_array.push(my_perfume)
+my_perfume_array.push(my_perfume1)
+my_perfume_array.push(my_perfume2)
 
-puts my_perfume.brand
-puts my_perfume.name
+my_perfume_array.each do |perfume|
+    puts "My perfume brand: #{perfume.brand}. Name: #{perfume.name}"
+end
 
 
 # class Car
