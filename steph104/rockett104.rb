@@ -1,27 +1,27 @@
-class Perfume
-    attr_accessor :brand, :name
+# class Perfume
+#     attr_accessor :brand, :name
 
-    def initialize(brand, name)
-        @brand = brand
-        @name = name
-    end 
-end
+#     def initialize(brand, name)
+#         @brand = brand
+#         @name = name
+#     end 
+# end
 
-my_perfume_array = []
-# complete = ""
+# my_perfume_array = []
+# # complete = ""
 
-# brand = ARGV[0]
-# name = ARGV[1]
+# # brand = ARGV[0]
+# # name = ARGV[1]
 
-my_perfume1 = Perfume.new("BrandA", "smellgood")
-my_perfume2 = Perfume.new("BrandB", "smellbetter")
+# my_perfume1 = Perfume.new("BrandA", "smellgood")
+# my_perfume2 = Perfume.new("BrandB", "smellbetter")
 
-my_perfume_array.push(my_perfume1)
-my_perfume_array.push(my_perfume2)
+# my_perfume_array.push(my_perfume1)
+# my_perfume_array.push(my_perfume2)
 
-my_perfume_array.each do |perfume|
-    puts "My perfume brand: #{perfume.brand}. Name: #{perfume.name}"
-end
+# my_perfume_array.each do |perfume|
+#     puts "My perfume brand: #{perfume.brand}. Name: #{perfume.name}"
+# end
 
 
 # class Car
